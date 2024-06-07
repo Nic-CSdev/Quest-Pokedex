@@ -17,7 +17,7 @@ function App() {
 const GlobalStyles = createGlobalStyle`
 @font-face {
   font-family: 'PokemonHollow';
-  src: url('/src/assets/fonts/Pokemon\ Hollow.ttf') format('truetype');
+  src: url('../src/assets/fonts/Pokemon%20Hollow.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,7 +30,7 @@ const GlobalStyles = createGlobalStyle`
 
 @font-face {
   font-family: 'RetroGaming';
-  src: url('/src/assets/fonts/Retro\ Gaming.ttf') format('truetype');
+  src: url('../src/assets/fonts/Retro%20Gaming.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
