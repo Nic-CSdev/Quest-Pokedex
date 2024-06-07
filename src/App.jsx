@@ -17,21 +17,20 @@ function App() {
 const GlobalStyles = createGlobalStyle`
 @font-face {
   font-family: 'PokemonHollow';
-  src: url('./src/assets/fonts/Pokemon\ Hollow.ttf') format('truetype');
+  src: url('/src/assets/fonts/Pokemon\ Hollow.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PokemonSolid';
-  src: url('../src/assets/fonts/Pokemon\ Solid.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RetroGaming';
-  src: url('../src/assets/fonts/Retro\ Gaming.ttf') format('truetype');
+  src: url('/src/assets/fonts/Retro\ Gaming.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
